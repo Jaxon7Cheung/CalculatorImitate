@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EEF1ED5C20F7ED57BB936F6 /* Pods_CalculatorImitate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F81E1C0B17E31C861A2B3 /* Pods_CalculatorImitate.framework */; };
+		A2D97E002AC4392B007F89EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97DFF2AC4392B007F89EB /* AppDelegate.m */; };
+		A2D97E032AC4392B007F89EB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E022AC4392B007F89EB /* SceneDelegate.m */; };
+		A2D97E062AC4392B007F89EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E052AC4392B007F89EB /* ViewController.m */; };
+		A2D97E092AC4392B007F89EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D97E072AC4392B007F89EB /* Main.storyboard */; };
+		A2D97E0B2AC4392C007F89EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D97E0A2AC4392C007F89EB /* Assets.xcassets */; };
+		A2D97E0E2AC4392C007F89EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D97E0C2AC4392C007F89EB /* LaunchScreen.storyboard */; };
+		A2D97E112AC4392C007F89EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E102AC4392C007F89EB /* main.m */; };
+		A2D97E1F2AC44610007F89EB /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E1E2AC44610007F89EB /* CalculatorModel.m */; };
+		A2D97E222AC4462A007F89EB /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E212AC4462A007F89EB /* CalculatorView.m */; };
+		A2D97E252AC44A4F007F89EB /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D97E242AC44A4F007F89EB /* Stack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAA0CF2980A97234BB9996F /* Pods-CalculatorImitate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorImitate.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorImitate/Pods-CalculatorImitate.debug.xcconfig"; sourceTree = "<group>"; };
+		3019304AA5711CD94D526E05 /* Pods-CalculatorImitate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorImitate.release.xcconfig"; path = "Target Support Files/Pods-CalculatorImitate/Pods-CalculatorImitate.release.xcconfig"; sourceTree = "<group>"; };
+		A2D97DFB2AC4392B007F89EB /* CalculatorImitate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorImitate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D97DFE2AC4392B007F89EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2D97DFF2AC4392B007F89EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2D97E012AC4392B007F89EB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A2D97E022AC4392B007F89EB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A2D97E042AC4392B007F89EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2D97E052AC4392B007F89EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2D97E082AC4392B007F89EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D97E0A2AC4392C007F89EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D97E0D2AC4392C007F89EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D97E0F2AC4392C007F89EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D97E102AC4392C007F89EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D97E1D2AC44610007F89EB /* CalculatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		A2D97E1E2AC44610007F89EB /* CalculatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
+		A2D97E202AC4462A007F89EB /* CalculatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		A2D97E212AC4462A007F89EB /* CalculatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
+		A2D97E232AC44A4F007F89EB /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		A2D97E242AC44A4F007F89EB /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		C24F81E1C0B17E31C861A2B3 /* Pods_CalculatorImitate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorImitate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D97DF82AC4392B007F89EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEF1ED5C20F7ED57BB936F6 /* Pods_CalculatorImitate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3811CA3EB660A429A5AF5888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24F81E1C0B17E31C861A2B3 /* Pods_CalculatorImitate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D97DF22AC4392B007F89EB = {
+			isa = PBXGroup;
+			children = (
+				A2D97E1C2AC4399C007F89EB /* M */,
+				A2D97E1B2AC43995007F89EB /* V */,
+				A2D97E1A2AC4398C007F89EB /* C */,
+				A2D97DFD2AC4392B007F89EB /* CalculatorImitate */,
+				A2D97DFC2AC4392B007F89EB /* Products */,
+				AAF07777817EE1BB078DD437 /* Pods */,
+				3811CA3EB660A429A5AF5888 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D97DFC2AC4392B007F89EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D97DFB2AC4392B007F89EB /* CalculatorImitate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D97DFD2AC4392B007F89EB /* CalculatorImitate */ = {
+			isa = PBXGroup;
+			children = (
+				A2D97DFE2AC4392B007F89EB /* AppDelegate.h */,
+				A2D97DFF2AC4392B007F89EB /* AppDelegate.m */,
+				A2D97E012AC4392B007F89EB /* SceneDelegate.h */,
+				A2D97E022AC4392B007F89EB /* SceneDelegate.m */,
+				A2D97E042AC4392B007F89EB /* ViewController.h */,
+				A2D97E052AC4392B007F89EB /* ViewController.m */,
+				A2D97E072AC4392B007F89EB /* Main.storyboard */,
+				A2D97E0A2AC4392C007F89EB /* Assets.xcassets */,
+				A2D97E0C2AC4392C007F89EB /* LaunchScreen.storyboard */,
+				A2D97E0F2AC4392C007F89EB /* Info.plist */,
+				A2D97E102AC4392C007F89EB /* main.m */,
+			);
+			path = CalculatorImitate;
+			sourceTree = "<group>";
+		};
+		A2D97E1A2AC4398C007F89EB /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		A2D97E1B2AC43995007F89EB /* V */ = {
+			isa = PBXGroup;
+			children = (
+				A2D97E202AC4462A007F89EB /* CalculatorView.h */,
+				A2D97E212AC4462A007F89EB /* CalculatorView.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		A2D97E1C2AC4399C007F89EB /* M */ = {
+			isa = PBXGroup;
+			children = (
+				A2D97E1D2AC44610007F89EB /* CalculatorModel.h */,
+				A2D97E1E2AC44610007F89EB /* CalculatorModel.m */,
+				A2D97E232AC44A4F007F89EB /* Stack.h */,
+				A2D97E242AC44A4F007F89EB /* Stack.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		AAF07777817EE1BB078DD437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA0CF2980A97234BB9996F /* Pods-CalculatorImitate.debug.xcconfig */,
+				3019304AA5711CD94D526E05 /* Pods-CalculatorImitate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D97DFA2AC4392B007F89EB /* CalculatorImitate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D97E142AC4392C007F89EB /* Build configuration list for PBXNativeTarget "CalculatorImitate" */;
+			buildPhases = (
+				74C1655ADE7486E090941ADE /* [CP] Check Pods Manifest.lock */,
+				A2D97DF72AC4392B007F89EB /* Sources */,
+				A2D97DF82AC4392B007F89EB /* Frameworks */,
+				A2D97DF92AC4392B007F89EB /* Resources */,
+				4C3B9F7E12DAE24BFB955EF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatorImitate;
+			productName = CalculatorImitate;
+			productReference = A2D97DFB2AC4392B007F89EB /* CalculatorImitate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D97DF32AC4392B007F89EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A2D97DFA2AC4392B007F89EB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A2D97DF62AC4392B007F89EB /* Build configuration list for PBXProject "CalculatorImitate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D97DF22AC4392B007F89EB;
+			productRefGroup = A2D97DFC2AC4392B007F89EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D97DFA2AC4392B007F89EB /* CalculatorImitate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D97DF92AC4392B007F89EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D97E0E2AC4392C007F89EB /* LaunchScreen.storyboard in Resources */,
+				A2D97E0B2AC4392C007F89EB /* Assets.xcassets in Resources */,
+				A2D97E092AC4392B007F89EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C3B9F7E12DAE24BFB955EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorImitate/Pods-CalculatorImitate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalculatorImitate/Pods-CalculatorImitate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalculatorImitate/Pods-CalculatorImitate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C1655ADE7486E090941ADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculatorImitate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D97DF72AC4392B007F89EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D97E222AC4462A007F89EB /* CalculatorView.m in Sources */,
+				A2D97E252AC44A4F007F89EB /* Stack.m in Sources */,
+				A2D97E062AC4392B007F89EB /* ViewController.m in Sources */,
+				A2D97E002AC4392B007F89EB /* AppDelegate.m in Sources */,
+				A2D97E112AC4392C007F89EB /* main.m in Sources */,
+				A2D97E1F2AC44610007F89EB /* CalculatorModel.m in Sources */,
+				A2D97E032AC4392B007F89EB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D97E072AC4392B007F89EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D97E082AC4392B007F89EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D97E0C2AC4392C007F89EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D97E0D2AC4392C007F89EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D97E122AC4392C007F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2D97E132AC4392C007F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D97E152AC4392C007F89EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAA0CF2980A97234BB9996F /* Pods-CalculatorImitate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorImitate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CalculatorImitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D97E162AC4392C007F89EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3019304AA5711CD94D526E05 /* Pods-CalculatorImitate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalculatorImitate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CalculatorImitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D97DF62AC4392B007F89EB /* Build configuration list for PBXProject "CalculatorImitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D97E122AC4392C007F89EB /* Debug */,
+				A2D97E132AC4392C007F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D97E142AC4392C007F89EB /* Build configuration list for PBXNativeTarget "CalculatorImitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D97E152AC4392C007F89EB /* Debug */,
+				A2D97E162AC4392C007F89EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D97DF32AC4392B007F89EB /* Project object */;
+}
