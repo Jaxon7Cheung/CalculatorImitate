@@ -192,7 +192,7 @@
 
 这里可以将`textField`的`adjustsFontSizeToFitWidth`属性值设置为YES，作用时当字符串宽度超过屏幕宽度时，字体大小自动适应，效果如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5a378385ed46406aa99085d2fdb33021.gif#pic_center =177x)
+![img](https://github.com/Jaxon7Cheung/CalculatorImitate/blob/master/5a378385ed46406aa99085d2fdb33021.gif)
 
 ## 表达式计算（Model）
 
