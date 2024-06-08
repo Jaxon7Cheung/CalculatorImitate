@@ -9,10 +9,10 @@
 - 计算思路详见这篇文章：[实现简易四则运算](https://blog.csdn.net/XY_Mckevince/article/details/133276273?csdn_share_tail=%7B%22type%22:%22blog%22,%22rType%22:%22article%22,%22rId%22:%22133276273%22,%22source%22:%22XY_Mckevince%22%7D)
 
 运行结果：
+![img](https://github.com/Jaxon7Cheung/CalculatorImitate/blob/master/aa8c0b90f34a45df85c6c55bdfffac84.gif)
 
 
 
-***
 ## UI界面（View）
 
 先配置好Masonry：
